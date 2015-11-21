@@ -1,0 +1,113 @@
+#lg_sch {
+	width: 500px;
+	height:200px;
+	position: fixed;
+	top:25%;
+	left: 25%;
+}
+.logo {
+	position: absolute;
+	height:92px; 
+	width:272px;
+	margin-top: 0px;
+	margin-left: 114px;
+}
+#s_bar {
+	position: absolute;
+	width: 480px;
+	height:30px;
+	border: solid 1px #cecece;
+	margin-top: 120px;
+	margin-left: 10px;
+}
+#btns {
+	position: absolute;
+	margin-top: 164px;
+	width: 268px;
+	height: 36px;
+	margin-left: 116px;
+}
+.btns {
+	display: inline-block;
+	text-align: center;
+	font-family: Arial;
+	font-weight: 800;
+	border: none;
+	background-color: #dfdfdf;
+	font-size: 14px;
+	padding: 5px 5px 5px 5px;
+
+}
+#ftr {
+	float: left;
+	display:block;
+	background-color:#dfdfdf;
+	font-family: Arial;
+	width:100%;
+	height:8%;
+	position: fixed;
+	top: 92%;
+	left:0%;
+}
+a {
+	padding:3px 5px 3px 5px;
+	color:grey;
+	font-family: Arial;
+	text-decoration: none;
+	font-size: 14px;
+}
+#ftr_l{
+	display: inline-block;
+	position: relative;
+	left:2%;
+	top:7px;
+}
+#ftr_r {
+	display: inline-block;
+	position: relative;
+	left: 60%;
+	top:7px;
+}
+#nav_bar {
+	float: right;
+	position: fixed;
+	top:0%;
+	left:0%;
+	background-color: transparent;
+	display: block;
+	width:100%;
+	height: 10%;
+}
+button {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 800;
+	color:white;
+	background-color: blue;
+	border: none;
+	height:28px;
+	width:70px;
+	border-radius: 5%;
+	display: inline-block;
+	position: relative;
+	top:10px;
+	left:78%;
+}
+#nav_bar_links {
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	left:75%;
+}
+a:hover {
+	text-decoration: underline;
+	color: #cecece
+}
+.app_icon {
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	position: relative;
+	top:10px;
+	left:76%;
+}
